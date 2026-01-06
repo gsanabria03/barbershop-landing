@@ -23,8 +23,8 @@ body {
 .hero-img img {
   width: 100%;
   border-radius: 10px;
-  margin-bottom: 30px;
-  margin: 30px;
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 .hero-text h1 {
