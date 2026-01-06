@@ -55,11 +55,12 @@ body {
 /* ===== DESKTOP ===== */
 @media (min-width: 900px) {
   .hero {
-    flex-direction: row;
-    align-items: center;
+    flex-direction: row; /* texto a la izquierda, imagen a la derecha */
     justify-content: space-between;
-    padding: 60px;
+    align-items: center;
+    padding: 60px 80px;
     text-align: left;
+    gap: 50px; /* más espacio entre texto y imagen */
   }
 
   .hero-text {
@@ -71,7 +72,11 @@ body {
   }
 
   .hero-img img {
-    width: 450px;
-    margin-bottom: 0;
+    width: 100%;        /* que ocupe todo el contenedor */
+    max-width: 600px;   /* pero no más grande que 600px */
+    height: auto;       /* mantiene proporción */
+    border-radius: 10px;
+    margin-top: 0;
   }
 }
+
