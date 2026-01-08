@@ -105,6 +105,30 @@ body {
   color: #d4af37;
 }
 
+.social-bar {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 25px 15px;
+  background-color: #000;
+  border-top: 1px solid #222;
+}
+
+.social-bar a {
+  color: #ccc;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-bar a:hover {
+  color: #d4af37; /* dorado al pasar el mouse */
+}
+
+.social-bar a:first-child {
+  color: #25d366; /* WhatsApp verde */
+}
+
+
 
 /* ===== DESKTOP ===== */
 @media (min-width: 900px) {
