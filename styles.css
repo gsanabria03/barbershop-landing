@@ -51,6 +51,40 @@ body {
   border-radius: 8px;
   font-size: 1.1rem;
 }
+/* ===== SERVICES ===== */
+.services {
+  padding: 60px 20px;
+  background-color: #000;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.service-card {
+  background: #111;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
 
 /* ===== DESKTOP ===== */
 @media (min-width: 900px) {
@@ -78,5 +112,18 @@ body {
     border-radius: 10px;
     margin-top: 0;
   }
+  
+  @media (min-width: 900px) {
+  .services-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .service-card {
+    width: 280px;
+  }
+}
+
+  
 }
 
