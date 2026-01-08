@@ -165,6 +165,9 @@ body {
   .service-card {
     width: 280px;
   }
+  .social-bar a {
+    font-size: 2rem;
+  }
   
 }
 
