@@ -157,7 +157,6 @@ body {
     margin-top: 0;
   }
   
-  @media (min-width: 900px) {
   .services-list {
     flex-direction: row;
     justify-content: center;
@@ -166,8 +165,6 @@ body {
   .service-card {
     width: 280px;
   }
-}
-
   
 }
 
