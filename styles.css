@@ -232,4 +232,22 @@ html {
   scroll-behavior: smooth;
 }
 
+.map-container {
+  margin-top: 25px;
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #222;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 
